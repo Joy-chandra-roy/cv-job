@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#EEEDEF;
+}
+.container{
+    max-width: 1200px;
+    background-color:#E3F6F5;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+/*....header section....*/
+.header img{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50px;
+    float: left;
+   
+}
+.my-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #74BCD0;
+}
+.my-contact{
+    float:right;
+    margin-top: 25px;
+}
+.my-contact a{
+    text-decoration: none;
+
+}
+.my-contact a:hover{
+    color: red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black ;
+    width:100%;
+    margin-top: 20px ;
+    border-bottom: none;
+}
+
+
+.div-left{
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+}
+.div-right{
+    margin-top: 20px;
+    width: 70%;
+    float: left;
+
+}
+.common-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    margin: 20px ;
+}
+.footer a:hover{
+    color: tomato;
+}
+.footer p{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
